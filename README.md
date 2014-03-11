@@ -43,15 +43,15 @@ rancol.keyword()  // "maroon"
 
 ## Command line usage
 
-Rancol cal also be used from the command line. The flags are named after the functions, dan running it without any flags gives you a HEX color value. Valid examples of running rancol could be:
+Rancol can also be used from the command line. The flags are named after the functions. Running it without any flags gives you a HEX color value. Valid examples of running rancol are:
 
 ```sh
 $ rancol --rgba
-# > rgba(201, 244, 125, 0.7);
+# rgba(201, 244, 125, 0.7);
 
 $ rancol --keyword
-# > maroon
+# maroon
 
-$rancol
-# > #AF67D9
+$ rancol
+# #AF67D9
 ```
