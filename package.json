@@ -4,13 +4,20 @@
   "description": "A simple random HEX color generator.",
   "version": "0.1.0",
   "repository": {
-    "url": ""
+    "url": "https://github.com/marklindhout/rancol"
   },
   "main": "./lib/rancol.js",
   "keywords": [
     "color",
     "colour",
     "hex",
+    "rgb",
+    "rgba",
+    "hsl",
+    "hsla",
+    "keyword",
+    "css",
+    "html",
     "random",
     "generator"
   ],
