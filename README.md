@@ -1,12 +1,11 @@
-# RanCol - A random color generator
+# rancol - A random color generator
 
-This small program is a node module for the generation of random color codes in HEX and RGB format.
+A simple Node.js module for the generation of random color codes in HEX, RGB(A), HSL(A) and keyword format.
 
 ## Usage
 
 
 ### HEX colors
-
 
 ```javascript
 var rancol = require('rancol');
@@ -44,10 +43,15 @@ rancol.keyword()  // "maroon"
 
 ## Command line usage
 
-Rancol cal also be used from the comamnd line. The various flags are named after the functions, so a valid example of running rancol could be:
+Rancol cal also be used from the command line. The flags are named after the functions, dan running it without any flags gives you a HEX color value. Valid examples of running rancol could be:
 
 ```sh
 $ rancol --rgba
+# > rgba(201, 244, 125, 0.7);
 
-rgba(201, 244, 125, 0.7);
+$ rancol --keyword
+# > maroon
+
+$rancol
+# > #AF67D9
 ```

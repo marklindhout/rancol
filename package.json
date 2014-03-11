@@ -1,7 +1,7 @@
 {
   "author": "Mark P. Lindhout",
   "name": "rancol",
-  "description": "A simple random HEX color generator.",
+  "description": "A simple Node.js module for the generation of random color codes in HEX, RGB(A), HSL(A) and keyword format.",
   "version": "0.1.0",
   "repository": {
     "url": "https://github.com/marklindhout/rancol"
