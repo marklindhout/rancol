@@ -1,0 +1,24 @@
+{
+  "author": "Mark P. Lindhout",
+  "name": "rancol",
+  "description": "A simple random HEX color generator.",
+  "version": "0.1.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "./lib/rancol.js",
+  "keywords": [
+    "color",
+    "colour",
+    "hex",
+    "random",
+    "generator"
+  ],
+  "bin": {
+    "uppercaseme": "./bin/rancol"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

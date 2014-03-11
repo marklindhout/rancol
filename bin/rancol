@@ -1,0 +1,28 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var path   = require('path');
+var fs     = require('fs');
+var lib    = path.join( path.dirname( fs.realpathSync( __filename ) ), '../lib' );
+var rancol = require( lib + '/rancol.js' )
+
+var type = process.argv.splice(2)[0];
+
+if (type === '--rgb') {
+    console.log( rancol.rgb() );
+} else if (type === '--rgbp') {
+    console.log( rancol.rgbp() );
+} else if (type === '--rgba') {
+    console.log( rancol.rgba() );
+} else if (type === '--rgbpa') {
+    console.log( rancol.rgbpa() );
+} else if (type === '--hsl') {
+    console.log( rancol.hsl() );
+} else if (type === '--hsla') {
+    console.log( rancol.hsla() );
+} else if (type === '--keyword') {
+    console.log( rancol.keyword() );
+} else if (type === '--hex' || typeof type === 'undefined') {
+    console.log( rancol.hex() );
+}
